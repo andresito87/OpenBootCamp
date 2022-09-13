@@ -1,0 +1,39 @@
+
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.btn-modern{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: large;
+    font-weight: 500;
+    text-decoration: none;
+    color: #000;
+    transition: all 0.4s ease-in-out;
+}
+
+.btn-modern:hover{
+    font-size: 1.2em;
+    font-weight: 700;
+    padding: 20px 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: green;
+    color: rgb(213, 235, 18);
+    border-bottom: 2px solid darkgreen;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+    cursor: pointer;
+    transform: translateY(-5px);
+    transition: all 0.4s ease-in-out;
+}
+
+.btn-modern:hover::after{
+    content: " señalado";
+}
