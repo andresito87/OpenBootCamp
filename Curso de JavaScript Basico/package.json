@@ -1,0 +1,12 @@
+{
+  "name": "curso-de-javascript-basico",
+  "version": "1.0.0",
+  "description": "curso de javascript basico en Openbootcamp",
+  "main": "index.js",
+  "scripts": {
+    "saludar":"node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andres Podadera",
+  "license": "ISC"
+}
