@@ -1,5 +1,4 @@
 /.idea/
-/Curso de Java Basico/Tema1/.idea/
 .iml
 *.iml
-/Curso de Java Basico/Tema2/.idea/
+*.gitignore
